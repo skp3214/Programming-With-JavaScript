@@ -1,0 +1,12 @@
+It is used to make web pages interactive on client side.
+client-side form validation.
+It is still most popular language in today.
+
+JavaScript is a scripting or programming language that enables developers to create interactive effects within web browsers. JavaScript was developed by Netscape for their Navigator
+
+# What is that makes javascipt so integral to modern browsers.
+   1.Direct Interaction:-> only langauge to allow direct interaction with webpages dynamically on client side.
+   2.Backward Compatibility:-> All websites built in past still need to work in the present day.
+   3.Central Pillar:-> without javascript, much of the internet becomes useless.
+   4.
+
