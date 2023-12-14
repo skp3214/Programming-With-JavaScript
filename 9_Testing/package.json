@@ -1,0 +1,15 @@
+{
+  "name": "8_jsinbrowser",
+  "version": "1.0.0",
+  "description": "\"Js feature\"",
+  "main": "ImportModules.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "module",
+  "author": "sachin",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
