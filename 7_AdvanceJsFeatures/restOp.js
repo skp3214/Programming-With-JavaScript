@@ -2,8 +2,9 @@ const num = [1, 2, 3, 4, 5, 6, 7]
 
 const [] = num
 
-const [first, ...ok] = num
+const [first,second, ...ok] = num
 console.log(ok)
+console.log(second)
 
 function sum(...args) {
     let soma = 0
