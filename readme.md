@@ -1,7 +1,8 @@
 # 30 Days JavaScript Challange
 [Day 1: Variables and Data Types](#day-1--variables-and-data-types)<br>
 [Day 2: Operators](#day-2--operators)<br>
-[Day 3: Control Structure](#day-3-control-structures)
+[Day 3: Control Structure](#day-3-control-structures)<br>
+[Day 4: Loop](#day-4-loop)
 
 ## Day 1 : Variables and Data Types
 
@@ -221,4 +222,64 @@ else
 ```
 ![alt text](image-5.png)
 
+[Back To Top](#30-days-javascript-challange)
+
+## Day 4: Loop
+![alt text](image-6.png)
+
+```js
+// Activity 1
+// Task 1
+
+for(let i=1;i<=10;i++){
+    console.log(i);
+}
+
+// Task 2
+
+for(let j=1;j<=10;j++){
+    console.log("5 x "+j+" = "+5*j);
+}
+
+// Activity 2
+// Task 3
+let sum=0;
+let n=10
+while(n--){
+    sum+=n;
+}
+console.log(sum);
+
+// Task 4
+let a=10;
+while(a--){
+    console.log(a);
+}
+
+// Activity 3
+// Task 5
+let b=5;
+do{
+    console.log(b);
+}
+while(b--);
+
+// Task 6
+let factNum=6;
+let fact=1;
+do{
+    fact*=factNum;
+    factNum--;
+}
+while(factNum>0);
+
+// Task 7
+for(let i=1;i<=5;i++){
+    let stars=""
+    for(let j=1;j<=i;j++){
+        stars+="*"
+    }
+    console.log(stars);
+}
+```
 [Back To Top](#30-days-javascript-challange)
