@@ -4,6 +4,7 @@
 [Day 3: Control Structure](#day-3-control-structures)<br>
 [Day 4: Loop](#day-4-loop)<br>
 [Day 5: Functions](#day-5-functions)<br>
+[Day 6: Arrays](#day-6-arrays)<br>
 
 ## Day 1 : Variables and Data Types
 
@@ -35,3 +36,12 @@
 [Task Solution](/30DayChallange/Day5.js)<br>
 
 ![alt text](image-7.png)
+
+[Back To Top](#30-days-javascript-challange)
+
+## Day 6: Arrays
+
+[Task Solution](/30DayChallange/Day6.js)<br>
+
+![alt text](image-1.png)
+
