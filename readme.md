@@ -45,3 +45,7 @@
 
 ![alt text](image-1.png)
 
+## Day 7: Objects 
+[Task Solution](/30DayChallange/Day7.js)<br>
+
+![alt text](image-3.png)
