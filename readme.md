@@ -49,3 +49,8 @@
 [Task Solution](/30DayChallange/Day7.js)<br>
 
 ![alt text](image-3.png)
+
+## Day 8: ES6+ Features
+[Task Solution](/30DayChallange/Day8.js)<br>
+
+![alt text](image-5.png)
