@@ -54,3 +54,8 @@
 [Task Solution](/30DayChallange/Day8.js)<br>
 
 ![alt text](image-5.png)
+
+## Day 9: Dom Manipulation
+[Task Solution](/30DayChallange/Day9/index.html)<br>
+
+![alt text](image-8.png)

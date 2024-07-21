@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Manipulation Tasks</title>
+  <style>
+    .myClass {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Day 9: DOM Manipulation Tasks</h1>
+
+  <!-- Elements for various tasks -->
+  <p id="task1">Original Text</p>
+  <p class="myClass">This is a paragraph for Task 2.</p>
+  <div id="task5">Remove this div for Task 5.</div>
+  <ul id="myList">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  <img id="task7" src="oldImage.png" alt="Old Image">
+  <p id="task8">This is a paragraph for Task 8.</p>
+  <button id="task9Button">Click me for Task 9</button>
+  <p id="task9">Original Text</p>
+  <div id="task10" style="width: 100px; height: 100px; border: 1px solid black;">Hover over me for Task 10</div>
+
+  <!-- Link to the JavaScript file -->
+  <script>
+    // Task 1: Select an HTML element by its ID and change its text content
+    document.getElementById("task1").textContent = "New Text";
+
+    // Task 2: Select an HTML element by its class and change its background color
+    document.querySelector(".myClass").style.backgroundColor = "yellow";
+
+    // Task 3: Create a new div element with some text content and append it to the body
+    let newDiv = document.createElement("div");
+    newDiv.textContent = "This is a new div element for Task 3.";
+    document.body.appendChild(newDiv);
+
+    // Task 4: Create a new li element and add it to an existing ul list
+    let newLi = document.createElement("li");
+    newLi.textContent = "Item 4 for Task 4";
+    document.getElementById("myList").appendChild(newLi);
+
+    // Task 5: Select an HTML element and remove it from the DOM
+    let task5Element = document.getElementById("task5");
+    task5Element.parentNode.removeChild(task5Element);
+
+    // Task 6: Remove the last child of a specific HTML element
+    let myList = document.getElementById("myList");
+    myList.removeChild(myList.lastElementChild);
+
+    // Task 7: Select an HTML element and change one of its attributes
+    document.getElementById("task7").src = "newImage.png";
+
+    // Task 8: Add and remove a CSS class to/from an HTML element
+    let task8Element = document.getElementById("task8");
+    task8Element.classList.add("myClass");
+    setTimeout(() => {
+      task8Element.classList.remove("myClass");
+    }, 2000); // Remove class after 2 seconds
+
+    // Task 9: Add a click event listener to a button that changes the text content of a paragraph
+    document.getElementById("task9Button").addEventListener("click", function () {
+      document.getElementById("task9").textContent = "Text after clicking the button.";
+    });
+
+    // Task 10: Add a mouseover event listener to an element that changes its border color
+    document.getElementById("task10").addEventListener("mouseover", function () {
+      this.style.borderColor = "blue";
+    });
+
+  </script>
+</body>
+
+</html>
