@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        .color-change {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Event Handling Activities</h1>
+
+    <!-- Activity 1 -->
+    <button id="changeTextButton">Change Text</button>
+    <p id="textParagraph">Original Text</p>
+    <button id="toggleVisibilityButton">Toggle Visibility</button>
+    <p id="toggleParagraph">Toggle this paragraph's visibility</p>
+
+    <!-- Activity 2 -->
+    <div id="mouseoverElement" style="width: 100px; height: 100px; background-color: lightblue;">Hover over and out me</div>
+
+    <!-- Activity 3 -->
+    <input id="keyInput" type="text" placeholder="Type something">
+    <p id="keyOutput"></p>
+
+    <!-- Activity 4 -->
+    <form id="sampleForm">
+        <input type="text" placeholder="Enter text">
+        <input type="submit" value="Submit">
+    </form>
+    <select id="selectElement">
+        <option value="Option 1">Option 1</option>
+        <option value="Option 2">Option 2</option>
+        <option value="Option 3">Option 3</option>
+    </select>
+    <p id="selectOutput"></p>
+
+    <!-- Activity 5 -->
+    <ul id="listElement">
+        <li>List Item 1</li>
+        <li>List Item 2</li>
+        <li>List Item 3</li>
+    </ul>
+    <div id="parentElement">
+        <button>Add Child</button>
+    </div>
+
+    <script>
+        // Activity 1
+        document.getElementById('changeTextButton').addEventListener('click', () => {
+            document.getElementById('textParagraph').textContent = 'Text Changed';
+        });
+
+        document.getElementById('toggleVisibilityButton').addEventListener('dblclick', () => {
+            const toggleParagraph = document.getElementById('toggleParagraph');
+            toggleParagraph.style.display = toggleParagraph.style.display === 'none' ? 'block' : 'none';
+        });
+
+        // Activity 2
+        document.getElementById('mouseoverElement').addEventListener('mouseover', () => {
+            document.getElementById('mouseoverElement').style.backgroundColor='yellow';
+        });
+
+        document.getElementById('mouseoverElement').addEventListener('mouseout', () => {
+            document.getElementById('mouseoverElement').style.backgroundColor='green';
+        });
+
+        // Activity 3
+        document.getElementById('keyInput').addEventListener('keydown', (event) => {
+            console.log('Key pressed:', event.key);
+        });
+
+        document.getElementById('keyInput').addEventListener('keyup', (event) => {
+            document.getElementById('keyOutput').textContent = 'Current input value: ' + event.target.value;
+        });
+
+        // Activity 4
+        document.getElementById('sampleForm').addEventListener('submit', (event) => {
+            event.preventDefault();
+            console.log('Form submitted');
+        });
+
+        document.getElementById('selectElement').addEventListener('change', (event) => {
+            document.getElementById('selectOutput').textContent = 'Selected value: ' + event.target.value;
+        });
+
+        // Activity 5
+        document.getElementById('listElement').addEventListener('click', (event) => {
+            if (event.target.tagName === 'LI') {
+                console.log('Clicked item:', event.target.textContent);
+            }
+        });
+
+        document.getElementById('parentElement').addEventListener('click', (event) => {
+            if (event.target.tagName === 'BUTTON') {
+                const newChild = document.createElement('div');
+                newChild.textContent = 'New Child';
+                document.getElementById('parentElement').appendChild(newChild);
+            }
+        });
+    </script>
+</body>
+</html>

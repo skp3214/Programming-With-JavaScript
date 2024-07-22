@@ -8,6 +8,7 @@
 [Day 7: Objects](#day-7-objects)<br>
 [Day 8: ES6+ Features](#day-8-es6-features)<br>
 [Day 9: DOM Manipulation](#day-9-dom-manipulation)<br>
+[Day 10: Event Handling](#day-10-event-handling)<br>
 
 
 ## Day 1 : Variables and Data Types
@@ -66,3 +67,8 @@
 [Task Solution](/30DayChallange/Day9/index.html)<br>
 
 ![alt text](image-8.png)
+
+## Day 10: Event Handling
+[Task Solution](/30DayChallange/Day10/index.html)<br>
+
+![alt text](image-9.png)
