@@ -9,6 +9,7 @@
 [Day 8: ES6+ Features](#day-8-es6-features)<br>
 [Day 9: DOM Manipulation](#day-9-dom-manipulation)<br>
 [Day 10: Event Handling](#day-10-event-handling)<br>
+[Day 11: Promises and Async Await](#day-11-promises-and-asyncawait)<br>
 
 
 ## Day 1 : Variables and Data Types
@@ -72,3 +73,8 @@
 [Task Solution](/30DayChallange/Day10/index.html)<br>
 
 ![alt text](image-9.png)
+
+## Day 11: Promises and Async/Await
+[Task Solution](/30DayChallange/Day11/Day11.js)<br>
+
+![alt text](image-10.png)
