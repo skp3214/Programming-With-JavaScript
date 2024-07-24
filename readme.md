@@ -10,6 +10,7 @@
 [Day 9: DOM Manipulation](#day-9-dom-manipulation)<br>
 [Day 10: Event Handling](#day-10-event-handling)<br>
 [Day 11: Promises and Async Await](#day-11-promises-and-asyncawait)<br>
+[Day 12: Error Handling](#day-12-error-handling)
 
 
 ## Day 1 : Variables and Data Types
@@ -78,3 +79,10 @@
 [Task Solution](/30DayChallange/Day11/Day11.js)<br>
 
 ![alt text](image-10.png)
+
+[Back To Top](#30-days-javascript-challange)
+
+## Day 12: Error Handling
+[Task Solution](/30DayChallange/Day12/Day12.js)<br>
+
+![alt text](image-11.png)
