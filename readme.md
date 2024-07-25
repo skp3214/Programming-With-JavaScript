@@ -83,6 +83,11 @@
 [Back To Top](#30-days-javascript-challange)
 
 ## Day 12: Error Handling
-[Task Solution](/30DayChallange/Day12/Day12.js)<br>
+[Task Solution](/30DayChallange/Day12.js)<br>
 
 ![alt text](image-11.png)
+
+## Day 13: Modules
+[Task Solution](/30DayChallange/Day13/Day13.js)<br>
+
+![alt text](image-12.png)
