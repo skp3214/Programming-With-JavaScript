@@ -92,3 +92,10 @@
 [Task Solution](/30DayChallange/Day13/Day13.js)<br>
 
 ![alt text](image-12.png)
+
+## Day 14: Classes
+[Task Solution](/30DayChallange/Day14.js)<br>
+
+![alt text](image-13.png)
+
+[Back To Top](#30-days-javascript-challange)
