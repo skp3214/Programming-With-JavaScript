@@ -11,7 +11,8 @@
 [Day 10: Event Handling](#day-10-event-handling)<br>
 [Day 11: Promises and Async Await](#day-11-promises-and-asyncawait)<br>
 [Day 12: Error Handling](#day-12-error-handling)<br>
-[Day 13: Modules](#day-13-modules)
+[Day 13: Modules](#day-13-modules)<br>
+[Day 14: Classes](#day-14-classes)<br>
 
 
 ## Day 1 : Variables and Data Types
