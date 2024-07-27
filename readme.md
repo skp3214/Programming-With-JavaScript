@@ -100,3 +100,9 @@
 ![alt text](image-13.png)
 
 [Back To Top](#30-days-javascript-challange)
+
+## Day 15: Closures
+[Task Solution](/30DayChallange/Day15.js)<br>
+
+![alt text](image-14.png)
+
