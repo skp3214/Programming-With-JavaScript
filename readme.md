@@ -15,6 +15,7 @@
 [Day 14: Classes](#day-14-classes)<br>
 [Day 15: Closures](#day-15-closures)<br>
 [Day 16: Recursion](#day-15-closures)<br>
+[Day 17: Data Structure](#day-17-data-structures)<br>
 
 
 ## Day 1 : Variables and Data Types
