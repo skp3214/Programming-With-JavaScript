@@ -112,3 +112,8 @@
 [Task Solution](/30DayChallange/Day16.js)<br>
 
 ![alt text](image-15.png)
+
+## Day 17: Data Structures
+[Task Solution](/30DayChallange/Day17.js)<br>
+![alt text](image-16.png)
+
