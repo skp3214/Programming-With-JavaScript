@@ -16,6 +16,7 @@
 [Day 15: Closures](#day-15-closures)<br>
 [Day 16: Recursion](#day-15-closures)<br>
 [Day 17: Data Structure](#day-17-data-structures)<br>
+[Day 18: Algorithms](#day-18-algorithms)<br>
 
 
 ## Day 1 : Variables and Data Types
@@ -113,8 +114,12 @@
 [Task Solution](/30DayChallange/Day16.js)<br>
 
 ![alt text](image-15.png)
+[Back To Top](#30-days-javascript-challange)
 
 ## Day 17: Data Structures
 [Task Solution](/30DayChallange/Day17.js)<br>
 ![alt text](image-16.png)
 
+## Day 18: Algorithms
+[Task Solution](/30DayChallange/Day18.js)<br>
+![alt text](image-17.png)
