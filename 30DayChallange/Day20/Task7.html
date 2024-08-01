@@ -1,0 +1,30 @@
+<form id="sessionForm">
+    <input type="text" id="sessionName" placeholder="Name">
+    <input type="email" id="sessionEmail" placeholder="Email">
+    <button type="submit">Submit</button>
+  </form>
+  <div id="sessionDisplayData"></div>
+  
+  <script>
+  document.getElementById('sessionForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const name = document.getElementById('sessionName').value;
+    const email = document.getElementById('sessionEmail').value;
+    
+    sessionStorage.setItem('sessionUserData', JSON.stringify({ name, email }));
+    displaySessionData();
+  });
+  
+  function displaySessionData() {
+    const userData = JSON.parse(sessionStorage.getItem('sessionUserData'));
+    const displayDiv = document.getElementById('sessionDisplayData');
+    if (userData) {
+      displayDiv.innerHTML = `Name: ${userData.name}, Email: ${userData.email}`;
+    } else {
+      displayDiv.innerHTML = 'No session data saved';
+    }
+  }
+  
+  // Display data on page load
+  displaySessionData();
+  </script>

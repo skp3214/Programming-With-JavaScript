@@ -115,8 +115,8 @@
 [Task Solution](/30DayChallange/Day16.js)<br>
 
 ![alt text](image-15.png)
-[Back To Top](#30-days-javascript-challange)
 
+[Back To Top](#30-days-javascript-challange)
 ## Day 17: Data Structures
 [Task Solution](/30DayChallange/Day17.js)<br>
 ![alt text](image-16.png)
@@ -130,3 +130,11 @@
 [Task Solution](/30DayChallange/Day19.js)<br>
 
 ![alt text](image-18.png)
+
+## Day 20: LocalStorage and Session Storage
+
+[Task Solution](/30DayChallange/Day20/Task3.html)
+
+![alt text](image-19.png)
+
+[Back To Top](#30-days-javascript-challange)
