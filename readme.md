@@ -18,6 +18,8 @@
 [Day 17: Data Structure](#day-17-data-structures)<br>
 [Day 18: Algorithms](#day-18-algorithms)<br>
 [Day 19: Regular Expressions](#day-19-regular-expressions)<br>
+[Day 20: LocalStorage and Session Storage](#day-20-localstorage-and-session-storage)<br>
+[Day 21: LeetCode Easy](#day-21-leetcode-easy)<br>
 
 
 ## Day 1 : Variables and Data Types
@@ -137,4 +139,7 @@
 
 ![alt text](image-19.png)
 
-[Back To Top](#30-days-javascript-challange)
+[Back To Top](#30-days-javascript-challange)<br>
+
+## Day 21: LeetCode Easy
+![alt text](image-20.png)
