@@ -20,6 +20,7 @@
 [Day 19: Regular Expressions](#day-19-regular-expressions)<br>
 [Day 20: LocalStorage and Session Storage](#day-20-localstorage-and-session-storage)<br>
 [Day 21: LeetCode Easy](#day-21-leetcode-easy)<br>
+[Day 22: LeetCode Medium](#day-22-leetcode-medium)<br>
 
 
 ## Day 1 : Variables and Data Types
@@ -143,3 +144,6 @@
 
 ## Day 21: LeetCode Easy
 ![alt text](image-20.png)
+
+## Day 22: LeetCode Medium
+![alt text](image-21.png)
