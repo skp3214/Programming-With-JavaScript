@@ -153,3 +153,8 @@
 ![alt text](image-22.png)
 
 [Back To Top](#30-days-javascript-challange)
+
+## Day 24: Weather App
+[Task Solution](/30DayChallange/Day24)<br>
+
+![alt text](image-23.png)
