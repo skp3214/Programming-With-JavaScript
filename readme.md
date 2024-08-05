@@ -22,7 +22,7 @@
 [Day 21: LeetCode Easy](#day-21-leetcode-easy)<br>
 [Day 22: LeetCode Medium](#day-22-leetcode-medium)<br>
 [Day 23: LeetCode Hard](#day-23-leetcode-hard)<br>
-
+[Day 24: Weather App](#day-24-weather-app)<br>
 
 ## Day 1 : Variables and Data Types
 
