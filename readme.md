@@ -24,6 +24,7 @@
 [Day 23: LeetCode Hard](#day-23-leetcode-hard)<br>
 [Day 24: Weather App](#day-24-weather-app)<br>
 [Day 25: Movie Search App](#day-25-movie-search-app)<br>
+[Day 26: Chat Application](#day-26-chat-application)<br>
 
 ## Day 1 : Variables and Data Types
 
@@ -163,3 +164,7 @@
 ## Day 25: Movie Search App
 
 ![alt text](image-24.png)
+
+## Day 26: Chat Application
+
+![alt text](image-25.png)
